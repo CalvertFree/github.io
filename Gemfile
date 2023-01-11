@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # gem "jekyll", "~> 4.3.1"
-# gem "github-pages", "~> 227", group: :jekyll_plugins
+gem "github-pages", "~> 227", group: :jekyll_plugins
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "cayman", "~> 0.2.0"
 # gem 'jekyll-theme-cayman', '~> 0.2.0'
