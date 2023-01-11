@@ -1,26 +1,5 @@
-# IDE
-.idea
-.codenvy
-.vscode
-.c9
-
-# DEV
-bower_components
-node_modules
-bundle.js
-coverage
-*.js.map
-npm-debug.log
-geany_run_script.bat
-Thumbs.db
-Temp.html
-ToTerranceNeverSent*.txt
-temp.md
-temp.htm
-foo.bat
-*.htm
-*.swp
-CopyToElvenware.sh
-_mdwriter.cson
-
-foo.*
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
