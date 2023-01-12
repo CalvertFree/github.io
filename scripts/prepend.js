@@ -3,6 +3,7 @@ import { format } from 'node:util';
 import { ensureFile } from 'fs-extra';
 import testFirstLine from './testFirstLine.js';
 import { getFirst, readFirstLine } from './getFirstLine.js';
+import { DateTime } from 'luxon';
 
 function formatDate(date, formatStr) {
  const map = {
@@ -33,12 +34,22 @@ ensureFileElf(fileName)
 
 console.log('barDate:', fileName);
 
+const dt = DateTime.now();
+const placeHolder = format(`%s`,
+ //dt.toLocaleString(DateTime.DATE_SHORT),
+ //dt.toLocaleString(DateTime.TIME_24_WITH_SECONDS),
+ dt.toFormat('yyyy-mm-dd hh:mm:ss ZZZ')
+);
+
+
+console.log(placeHolder);
+
 const frontMatter = format(`---
 layout: post
 date: %s
 title: %s
 ---
-`, fileDate, 'placeHolder');
+`, placeHolder, fileNameBase);
 
 const firstLine = await getFirst(fileName);
 
