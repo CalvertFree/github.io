@@ -1,0 +1,6 @@
+---
+layout: post
+date: $jekylldate
+title: $post_variable
+excerpt:
+---
