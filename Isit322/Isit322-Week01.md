@@ -9,6 +9,8 @@ permalink: Isit322/Isit322-Week01
 
 Information useful during Week 1, 2018 for ISIT322.
 
+Now
+
 ## React
 
 Here are some [key links][react-links].
