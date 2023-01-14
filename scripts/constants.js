@@ -14,7 +14,7 @@ async function ensureFileElf(fileName) {
 function formatDate(date, formatStr) {
     const map = {
         mm: ('' + date.getMonth() + 1).padStart(2, "0"),
-        dd: ('' + date.getDate()).padStart(2, "0"),
+        dd: ('' + date.getDay()).padStart(2, "0"),
         y2: date.getFullYear().toString().slice(-2),
         yyyy: date.getFullYear()
     }
@@ -40,7 +40,7 @@ async function createPostDateFileName(fileNameBase, ensure) {
     const placeHolder = format(`%s`,
         //dt.toLocaleString(DateTime.DATE_SHORT),
         //dt.toLocaleString(DateTime.TIME_24_WITH_SECONDS),
-        dt.toFormat('yyyy-mm-dd hh:mm:ss ZZZ')
+        dt.toFormat('yyyy-MM-dd hh:mm:ss ZZZ')
     );
 
 
