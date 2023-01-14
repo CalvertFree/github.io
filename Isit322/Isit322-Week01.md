@@ -46,7 +46,7 @@ Here are some [key links][react-links].
 
 ## Set up React
 
-Here is a simple way to create a React Application.
+Here is a simple way to create a React Application. Bar
 
 We want create-react-app to open Chrome or Chromium, not FireFox. (Unless you really prefer FireFox. But I tend to use Chrome or Chromium.)
 

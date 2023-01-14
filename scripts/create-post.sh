@@ -22,7 +22,7 @@ read -p "Enter the post name: " post_variable;
 cat <<EOF > /Users/TJ/Desktop/foobar.com/_posts/$yearmonth/$postdate-$post_variable.markdown
 ---
 layout: post
-date: $jekylldate
+date: 2023-01-12 02:55:38 -0800
 title: $post_variable
 excerpt:
 ---
