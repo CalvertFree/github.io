@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "elven-code": "^4.12.1",
+    "walk-directories": "^4.1.1"
+  }
+}
